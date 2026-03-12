@@ -1,0 +1,12 @@
+&&Language&&##cpp##
+&&ProgType&&##program##
+&&ProgName&&##easyfind##
+&&HasBonus&&##false##
+&&ExtLib&&##none##
+&&Sanitize&&##true##
+&&HFileExtension&&##h##
+&&AdvancedMake&&##false##
+&&AMKWidth&&##50##
+&&AMKSleep&&##0.25##
+&&SortedMakefile&&##false##
+&&SMKFolder&&##objects##

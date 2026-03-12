@@ -1,0 +1,25 @@
+%%42HEADER%%
+
+#include "%%CLASSNAME%%.h"
+
+//====================== CONSTRUCTORS ======================
+%%CLASSNAME%%::%%CLASSNAME%%()
+{
+	
+}
+%%CLASSNAME%%::%%CLASSNAME%%(const %%CLASSNAME%%& CopyIn)
+{
+	(void)CopyIn;
+}
+%%CLASSNAME%%::~%%CLASSNAME%%()
+{
+	
+}
+
+//====================== CONSTRUCTORS ======================
+%%CLASSNAME%%& %%CLASSNAME%%::operator=(const %%CLASSNAME%%& CopyIn)
+{
+	(void)CopyIn;
+	return *this;
+}
+
