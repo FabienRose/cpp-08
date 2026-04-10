@@ -1,6 +1,5 @@
 #include "Span.h"
 
-// TODO: implement the Orthodox Canonical Form
 Span::Span(unsigned int N) : _maxSize(N)
 {
 }
@@ -23,7 +22,6 @@ Span::~Span()
 {
 }
 
-// TODO: implement addNumber()
 void Span::addNumber(int number)
 {
 	if (_numbers.size() >= _maxSize)
@@ -31,7 +29,6 @@ void Span::addNumber(int number)
 	_numbers.push_back(number);
 }
 
-// TODO: implement shortestSpan()
 int Span::shortestSpan()
 {
 	if (_numbers.size() < 2)
@@ -50,7 +47,6 @@ int Span::shortestSpan()
 	return minSpan;
 }
 
-// TODO: implement longestSpan()
 int Span::longestSpan()
 {
 	if (_numbers.size() < 2)

@@ -20,7 +20,6 @@ void testFind(const T& container, int value)
 
 int main(void)
 {
-	// --- std::vector ---
 	std::cout << "=== vector ==" << std::endl;
 	std::vector<int> vec;
 	vec.push_back(10);
@@ -31,7 +30,6 @@ int main(void)
 	testFind(vec, 30);   // found at index 2
 	testFind(vec, 99);   // not found
 
-	// --- std::list ---
 	std::cout << "\n=== list ===" << std::endl;
 	std::list<int> lst;
 	lst.push_back(1);

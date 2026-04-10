@@ -20,8 +20,11 @@ static void testMutantStack()
 
 	MutantStack<int>::iterator it  = mstack.begin();
 	MutantStack<int>::iterator ite = mstack.end();
+	std::cout << "Iterating through MutantStack:" << std::endl;
 	++it;
+	std::cout << "After incrementing iterator once: " << *it << std::endl;
 	--it;
+	std::cout << "After decrementing iterator once: " << *it << std::endl;
 	while (it != ite)
 	{
 		std::cout << *it << std::endl;
@@ -48,8 +51,11 @@ static void testList()
 
 	std::list<int>::iterator it  = mstack.begin();
 	std::list<int>::iterator ite = mstack.end();
+	std::cout << "Iterating through std::list:" << std::endl;
 	++it;
+	std::cout << "After incrementing iterator once: " << *it << std::endl;
 	--it;
+	std::cout << "After decrementing iterator once: " << *it << std::endl;
 	while (it != ite)
 	{
 		std::cout << *it << std::endl;
